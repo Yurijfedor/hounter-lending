@@ -8,6 +8,20 @@ export const Title = styled.h2`
   color: #1b1c57;
 `;
 
+const getBeforeStyles = (subTitle) => {
+  if (subTitle === "See Our Review") {
+    return `
+      left: 39.5vw;
+      top: -12px;
+    `;
+  } else {
+    return `
+      left: -40px;
+      top: 8px;
+    `;
+  }
+};
+
 export const SubTitle = styled.p`
   position: relative;
   margin-bottom: 12px;
@@ -21,8 +35,7 @@ export const SubTitle = styled.p`
     content: "";
     width: 32px;
     height: 1px;
-    left: -40px;
-    top: 8px;
+    ${({ subTitle }) => getBeforeStyles(subTitle)}
     background: #f59e0b;
   }
 `;

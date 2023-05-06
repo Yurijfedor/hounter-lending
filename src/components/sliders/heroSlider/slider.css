@@ -97,3 +97,22 @@
 .inner .slick-next {
   right: -50px;
 }
+
+.review .slick-list {
+  margin-left: -150px;
+  margin-right: -120px;
+}
+
+.review .slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.review .slick-slide {
+  margin-right: 56px;
+}
+
+.review .slick-track {
+  margin: 0 -56px;
+}

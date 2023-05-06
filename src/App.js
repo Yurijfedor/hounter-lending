@@ -3,6 +3,7 @@ import { Container } from "./components/container/Container.styled";
 import { Hero } from "./components/hero/Hero";
 import { FeaturedHouses } from "./components/featuredHouses/FeaturedHouses";
 import { ReadyToSell } from "./components/readyToSell/ReadyToSell";
+import { Review } from "./components/review/Review";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <FeaturedHouses />
         <ReadyToSell />
+        <Review />
       </main>
     </Container>
   );

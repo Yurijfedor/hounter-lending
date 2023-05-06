@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Modal } from "../../modal/modal";
 import { Icon } from "../../icon/Icon";

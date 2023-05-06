@@ -29,6 +29,12 @@ const sellSlidesData = [
       location: "Manager Director",
       tel: "tel:+380685138936",
     },
+    review: {
+      title: "Best! I got the house I wanted through Hounter",
+      content:
+        "Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.",
+    },
+    raiting: "4.6",
   },
   {
     id: 2,
@@ -54,6 +60,12 @@ const sellSlidesData = [
       location: "Head of Marketing",
       tel: "tel:+380667119408",
     },
+    review: {
+      title: "Through the Hounter, I can get a house for my self",
+      content:
+        "By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!",
+    },
+    raiting: "4.3",
   },
   {
     id: 3,
@@ -79,6 +91,12 @@ const sellSlidesData = [
       location: "CEO Andarafish",
       tel: "tel:+380685138936",
     },
+    review: {
+      title: "My house sold out fast!",
+      content:
+        "I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!",
+    },
+    raiting: "4.9",
   },
 ];
 
