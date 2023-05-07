@@ -84,7 +84,7 @@ export const UserPosition = styled.p`
   color: #888b97;
 `;
 
-export const ContactNowButton = styled.a`
+export const LinkButton = styled.a`
   display: flex;
   align-items: center;
   padding: 13px 16px;

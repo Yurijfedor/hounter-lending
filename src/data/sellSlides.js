@@ -17,6 +17,16 @@ const sellSlidesData = [
     url2: "https://i.pinimg.com/564x/85/40/f8/8540f8c696b87186de91e8608fc16bf2.jpg",
     url3: "https://i.pinimg.com/564x/9e/7c/f7/9e7cf7295e6db710bd0d34338997d6c7.jpg",
     url4: "https://i.pinimg.com/564x/71/c6/66/71c66693282d95685cf17f81b2c8161e.jpg",
+    post: {
+      postUrl:
+        "https://i.pinimg.com/564x/60/5f/d1/605fd1af0cba3df80e1965a52d10bde8.jpg",
+      postTitle: "The things we need to check when we want to buy a house",
+      postDescription:
+        "Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house",
+      timeForRead: "2",
+      createdAt: "24 Apr 2021",
+    },
+
     houseDetail: {
       bedrooms: 4,
       bathrooms: 4,
@@ -48,6 +58,18 @@ const sellSlidesData = [
     url2: "https://i.pinimg.com/564x/f9/2e/d7/f92ed700858447436497a072c70cd4c6.jpg",
     url3: "https://i.pinimg.com/564x/89/dc/1d/89dc1d70c121e8ab81b81f601b581a04.jpg",
     url4: "https://i.pinimg.com/564x/b4/e8/aa/b4e8aa87c3ad8bb98138bd351dceca8d.jpg",
+    post: {
+      postUrl:
+        "https://i.pinimg.com/564x/94/8d/a5/948da5283a4c8571f70bfadb263e031b.jpg",
+      postTitle:
+        "7 Ways to distinguish the quality of the house we want to buy",
+      postDescription:
+        "Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house",
+
+      timeForRead: "6",
+      createdAt: "24 Apr 2021",
+    },
+
     houseDetail: {
       bedrooms: 5,
       bathrooms: 2,
@@ -79,6 +101,17 @@ const sellSlidesData = [
     url2: "https://i.pinimg.com/564x/cd/e1/58/cde158d93ffff00be75164ec111cb2c7.jpg",
     url3: "https://i.pinimg.com/564x/a0/13/22/a013226adbe9aeff08cdccc701671b85.jpg",
     url4: "https://i.pinimg.com/564x/29/51/08/2951084ad107a10e2b943ac04601067d.jpg",
+    post: {
+      postUrl:
+        "https://i.pinimg.com/564x/1e/f5/37/1ef537f1584bec3a0738df77554fc8e8.jpg",
+      postTitle: "The best way to know the quality of the house we want to buy",
+      postDescription:
+        "Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house",
+
+      timeForRead: "4",
+      createdAt: "25 Apr 2021",
+    },
+
     houseDetail: {
       bedrooms: 4,
       bathrooms: 4,

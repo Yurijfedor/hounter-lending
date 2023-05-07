@@ -31,7 +31,7 @@ export const FeaturedHouses = () => {
     setSliderIndex(sliderIndex + 1);
   };
   return (
-    <SectionStyled>
+    <SectionStyled style={{ paddingLeft: "40px" }}>
       <FeaturedSectionWrapp>
         <SectionTitle title="Featured House" subTitle="Our Recommendation" />
         <Filter handleFilterClick={handleFilterClick} />

@@ -14,7 +14,7 @@ import {
   UserNamePositionWrapper,
   UserName,
   UserPosition,
-  ContactNowButton,
+  LinkButton,
   ImageWrapper,
   AverageImage,
   SmallImageWrapper,
@@ -114,10 +114,10 @@ export const SliderComponent = () => {
                     <UserName>{slide.user.userName}</UserName>
                     <UserPosition>{slide.user.location}</UserPosition>
                   </UserNamePositionWrapper>
-                  <ContactNowButton href={slide.user.tel}>
+                  <LinkButton href={slide.user.tel}>
                     <Icon name="icon-phone-min" />
                     Contact Now
-                  </ContactNowButton>
+                  </LinkButton>
                 </UserWrapper>
               </div>
               <ImageWrapper

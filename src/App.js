@@ -4,6 +4,7 @@ import { Hero } from "./components/hero/Hero";
 import { FeaturedHouses } from "./components/featuredHouses/FeaturedHouses";
 import { ReadyToSell } from "./components/readyToSell/ReadyToSell";
 import { Review } from "./components/review/Review";
+import { More } from "./components/more/More";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <FeaturedHouses />
         <ReadyToSell />
         <Review />
+        <More />
       </main>
     </Container>
   );

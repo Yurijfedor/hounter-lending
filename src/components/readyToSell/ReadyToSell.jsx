@@ -4,7 +4,9 @@ import { SliderComponent } from "../sliders/readyToSellSlider/Slider";
 
 export const ReadyToSell = () => {
   return (
-    <SectionStyled style={{ position: "relative", height: "460px" }}>
+    <SectionStyled
+      style={{ paddingLeft: "40px", position: "relative", height: "460px" }}
+    >
       <SectionTitle
         title="Let’s tour and see our house!"
         subTitle="Ready to Sell!"

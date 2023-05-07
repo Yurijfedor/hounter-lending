@@ -9,9 +9,12 @@ export const Title = styled.h2`
 `;
 
 const getBeforeStyles = (subTitle) => {
-  if (subTitle === "See Our Review") {
+  if (
+    subTitle === "See Our Review" ||
+    subTitle === "See tips and trick from our partnership"
+  ) {
     return `
-      left: 39.5vw;
+      left: 49%;
       top: -12px;
     `;
   } else {
