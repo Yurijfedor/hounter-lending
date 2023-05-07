@@ -1,7 +1,7 @@
 import bigUrl from "../assets/images/tour-image-big-min.jpg";
-import user1 from "../assets/images/people1k-1-min.png";
-import user2 from "../assets/images/people1k-2-min.png";
-import user3 from "../assets/images/people1k-3-min.png";
+import user1 from "../assets/images/featured-poeople-2-min.png";
+import user2 from "../assets/images/featured-poeople-3-min.png";
+import user3 from "../assets/images/featured-poeople-4-min.png";
 
 const sellSlidesData = [
   {

@@ -24,9 +24,10 @@ export const PostItem = styled.li`
 export const StyledImg = styled.div`
   width: 200px;
   height: 144px;
-  background-image: url(${url1});
+  background-image: ${({ url }) => `url(${url})`};
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 16px;
 `;
 
@@ -46,7 +47,7 @@ export const Avatar = styled.span`
   width: 32px;
   height: 32px;
   margin-right: 16px;
-  background-image: url(${ava});
+  background-image: ${({ avatar }) => `url(${avatar})`};
   background-repeat: no-repeat;
   background-size: cover;
 `;

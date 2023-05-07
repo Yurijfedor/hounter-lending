@@ -33,13 +33,13 @@ export const ReviewSlider = () => {
       <Slider {...settings} className="review">
         {slideData.map((slide) => (
           <li key={slide.id}>
-            <StyledImg image={slide.photos[0]}>
+            <StyledImg image={slide.url1}>
               <ReviewWrapp>
                 <ReviewTitle>{slide.review.title}</ReviewTitle>
                 <ReviewContent>{slide.review.content}</ReviewContent>
                 <AuthorBlockWrapp>
                   <AuthorInfoWrapp>
-                    <UserAvatar />
+                    <UserAvatar avatar={slide.user.avatar} />
                     <UserNamePositionWrapper>
                       <UserName>{slide.user.userName}</UserName>
                       <UserPosition>{slide.user.location}</UserPosition>

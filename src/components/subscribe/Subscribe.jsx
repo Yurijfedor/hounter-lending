@@ -15,6 +15,7 @@ export const Subscribe = () => {
           iconName="icon-email-min"
           placeholder="Your email here"
           btnText="Subsribe Now"
+          type="email"
         />
       </SubscribeWrapper>
     </SectionStyled>

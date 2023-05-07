@@ -23,8 +23,7 @@ export const StyledButton = styled.button`
   &::first-letter {
     text-transform: uppercase;
   }
-  &:hover,
-  &:focus {
+  &:hover {
     background-color: #0e956d;
   }
 `;

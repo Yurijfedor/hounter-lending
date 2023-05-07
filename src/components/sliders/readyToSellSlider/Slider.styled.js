@@ -63,7 +63,7 @@ export const UserAvatar = styled.div`
   border-radius: 50%;
   background-image: ${({ url }) => `url(${url})`};
   background-repeat: no-repeat;
-  background-position: center -22px;
+  background-position: center;
 `;
 
 export const UserNamePositionWrapper = styled.div`

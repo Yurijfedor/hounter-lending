@@ -51,7 +51,7 @@ export const SliderComponent = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     variableWidth: true,
     autoplaySpeed: 5000,

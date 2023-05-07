@@ -11,9 +11,9 @@ export const StyledImg = styled.div`
   margin-bottom: 137px;
   width: 740px;
   height: 400px;
-  background-image: url(${url1});
+  background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
-  /* opacity: 0.7; */
+  background-position: bottom;
   border-radius: 8px;
 `;
 
@@ -49,6 +49,7 @@ export const AuthorBlockWrapp = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 24px;
 `;
 export const AuthorInfoWrapp = styled.div`
   display: flex;
@@ -60,10 +61,9 @@ export const UserAvatar = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  /* background-image: ${({ url }) => `url(${url})`}; */
-  background-image: url(${ava});
+  background-image: ${({ avatar }) => `url(${avatar})`};
   background-repeat: no-repeat;
-  background-position: center -22px;
+  background-position: center;
 `;
 
 export const UserName = styled.p`

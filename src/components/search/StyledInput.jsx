@@ -8,6 +8,7 @@ export const StyledInputComponent = ({
   placeholder,
   btnText,
   isIconButton,
+  type,
 }) => {
   const icon = (
     <Icon
@@ -22,7 +23,7 @@ export const StyledInputComponent = ({
   return (
     <SearchWrapp placeholder={placeholder}>
       <Icon name={iconName} />
-      <Input placeholder={placeholder} />
+      <Input placeholder={placeholder} type={type} />
       <Button text={btnText} icon={isIconButton ? icon : null} />
     </SearchWrapp>
   );

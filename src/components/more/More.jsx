@@ -44,10 +44,10 @@ export const More = () => {
                 handleClick(index);
               }}
             >
-              <StyledImg />
+              <StyledImg url={item.url1} />
               <PostInfoWrapp>
                 <Name>
-                  <Avatar />
+                  <Avatar avatar={item.user.avatar} />
                   {item.user.userName}
                 </Name>
                 <PostTitle>{item.post.postTitle}</PostTitle>
@@ -62,9 +62,12 @@ export const More = () => {
           ))}
         </PostList>
         <PostDetailWrapp>
-          <StyledImg style={{ width: "560px", height: "280px" }} />
+          <StyledImg
+            url={data[indexOfCurrentPost].url1}
+            style={{ width: "560px", height: "280px" }}
+          />
           <Name style={{ marginTop: "29px" }}>
-            <Avatar />
+            <Avatar avatar={data[indexOfCurrentPost].user.avatar} />
             {data[indexOfCurrentPost].user.userName}
           </Name>
           <a href="#" style={{ textDecoration: "none" }}>

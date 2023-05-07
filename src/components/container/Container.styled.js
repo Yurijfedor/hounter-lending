@@ -16,10 +16,8 @@ export const Section = styled.section`
 export const Container = styled.div`
   position: relative;
   max-width: 1440px;
-  height: 4590px;
   margin: 0 auto;
   padding: 40px 20px;
-  /* background-color: #4be4c9; */
   background-image: url(${hero});
   background-repeat: no-repeat;
   background-position: right center;
@@ -54,10 +52,10 @@ export const Container = styled.div`
     bottom -51px right -20px, bottom -116px right 46px, top 1574px right -153px,
     top 1452px right -94px;
   @media (min-width: 1200px) {
-    padding: 40px 120px;
+    padding: 40px 120px 120px 120px;
   }
 
   @media (min-width: 1920px) {
-    padding: 40px 120px;
+    padding: 40px 120px 120px 120px;
   }
 `;
