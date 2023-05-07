@@ -33,7 +33,7 @@ export const More = () => {
         style={{ textAlign: "center", width: "450px", margin: "0 auto" }}
       />
       <LinkButton style={{ width: "86px", margin: "24px auto 0 auto" }}>
-        More Artikel
+        More Article
       </LinkButton>
       <MoreMainWrapp>
         <PostList>
