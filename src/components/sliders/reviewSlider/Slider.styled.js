@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import url1 from "../../../assets/images/design2.jpg";
-import ava from "../../../assets/images/people1k-1-min.png";
-
 export const SliderContainer = styled.div`
   margin-top: 40px;
 `;

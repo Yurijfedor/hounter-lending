@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import url1 from "../../assets/images/design2.jpg";
-import ava from "../../assets/images/featured-poeople-2-min.png";
 
 export const MoreMainWrapp = styled.div`
   display: flex;
