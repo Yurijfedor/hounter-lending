@@ -1,5 +1,5 @@
 import { Partnership } from "../partnership/Partnership";
-import { LocationInput } from "../search/Search";
+import { StyledInputComponent } from "../search/StyledInput";
 import { slideData } from "../../data/heroSlides";
 import { SliderComponent } from "../sliders/heroSlider/Slider";
 
@@ -24,7 +24,12 @@ export const Hero = () => {
           Everything you need about finding your place to live will be here,
           where it will be easier for you
         </HeroTitleDetail>
-        <LocationInput />
+        <StyledInputComponent
+          iconName="icon-location-min"
+          placeholder="Search for the location you want!"
+          btnText="Search"
+          isIconButton
+        />
         <Partnership />
       </LeftContentWrapp>
       <BackgroundImageWrapp>

@@ -5,6 +5,8 @@ import { FeaturedHouses } from "./components/featuredHouses/FeaturedHouses";
 import { ReadyToSell } from "./components/readyToSell/ReadyToSell";
 import { Review } from "./components/review/Review";
 import { More } from "./components/more/More";
+import { Subscribe } from "./components/subscribe/Subscribe";
+import { Footer } from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <ReadyToSell />
         <Review />
         <More />
+        <Subscribe />
+        <Footer />
       </main>
     </Container>
   );
