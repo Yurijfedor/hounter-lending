@@ -5,7 +5,12 @@ import { SliderComponent } from "../sliders/readyToSellSlider/Slider";
 export const ReadyToSell = () => {
   return (
     <SectionStyled
-      style={{ paddingLeft: "40px", position: "relative", height: "460px" }}
+      style={{
+        paddingLeft: "40px",
+        position: "relative",
+        height: "460px",
+        overflow: "hidden",
+      }}
     >
       <SectionTitle
         title="Let’s tour and see our house!"

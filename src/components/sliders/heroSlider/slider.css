@@ -3,7 +3,7 @@
 }
 
 .inner .slick-slide {
-  margin-left: 70px;
+  margin-left: 25px;
 }
 
 .hero .slick-slide {
@@ -64,10 +64,9 @@
   background-color: #d8d8d8;
 }
 
-.hero .sell .slick-slide {
+.sell .slick-slide {
   margin-left: 0;
 }
-
 .sell .slick-slide:not(.slick-current) {
   display: none;
 }

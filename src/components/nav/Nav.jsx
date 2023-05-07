@@ -8,16 +8,16 @@ const links = [
 ];
 
 const properties = [
-  { label: "House", url: "/house" },
-  { label: "Villa", url: "/villa" },
-  { label: "Apartment", url: "/apartment" },
+  { label: "House", url: "#" },
+  { label: "Villa", url: "#" },
+  { label: "Apartment", url: "#" },
 ];
 
 export const Navigation = () => {
   return (
     <Nav>
       {links.map(({ label, url }) => (
-        <NavLink key={url} href={url}>
+        <NavLink key={label} href={url}>
           {label}
           {label === "Property" && (
             <>
