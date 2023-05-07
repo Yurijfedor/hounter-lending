@@ -66,75 +66,73 @@ export const SliderComponent = () => {
     >
       <Slider {...settings} className="sell">
         {slideData.map((slide, index) => (
-          <>
-            <MainWrapper key={slide.id}>
-              <div>
-                <HouseDetailTitle>House Detail</HouseDetailTitle>
-                <HouseDetailWrapper>
-                  <HouseDetailColumn>
-                    <li>
-                      <HouseDetailValue>
-                        <span>
-                          <Icon name="icon-bedrooms-min" />
-                        </span>
-                        {`${slide.houseDetail.bedrooms} Bedrooms`}
-                      </HouseDetailValue>
-                    </li>
-                    <li>
-                      <HouseDetailValue>
-                        <span>
-                          <Icon name="icon-carport-min" />
-                        </span>
-                        {`${slide.houseDetail.carPort} Carport`}
-                      </HouseDetailValue>
-                    </li>
-                  </HouseDetailColumn>
-                  <HouseDetailColumn>
-                    <li>
-                      <HouseDetailValue>
-                        <span>
-                          <Icon name="icon-bathrooms-min" />
-                        </span>
-                        {`${slide.houseDetail.bathrooms} Bathrooms`}
-                      </HouseDetailValue>
-                    </li>
-                    <li>
-                      <HouseDetailValue>
-                        <span>
-                          <Icon name="icon-floors-min" />
-                        </span>
-                        {`${slide.houseDetail.floors} Floors`}
-                      </HouseDetailValue>
-                    </li>
-                  </HouseDetailColumn>
-                </HouseDetailWrapper>
-                <UserWrapper>
-                  <UserAvatar url={slide.user.avatar} />
-                  <UserNamePositionWrapper>
-                    <UserName>{slide.user.userName}</UserName>
-                    <UserPosition>{slide.user.location}</UserPosition>
-                  </UserNamePositionWrapper>
-                  <LinkButton href={slide.user.tel}>
-                    <Icon name="icon-phone-min" />
-                    Contact Now
-                  </LinkButton>
-                </UserWrapper>
-              </div>
-              <ImageWrapper
-                url={slide.url1}
-                onClick={() => handlePhotoClick(index)}
-              >
-                <AverageImage url={slide.url2} />
-                <SmallImageWrapper>
-                  <SmallImage url={slide.url3} />
-                  <SmallImage url={slide.url4} />
-                </SmallImageWrapper>
-                <PlayButtonCircle>
-                  <Icon name="icon-play-min" width={15} height={21} />
-                </PlayButtonCircle>
-              </ImageWrapper>
-            </MainWrapper>
-          </>
+          <MainWrapper key={slide.id}>
+            <div>
+              <HouseDetailTitle>House Detail</HouseDetailTitle>
+              <HouseDetailWrapper>
+                <HouseDetailColumn>
+                  <li>
+                    <HouseDetailValue>
+                      <span>
+                        <Icon name="icon-bedrooms-min" />
+                      </span>
+                      {`${slide.houseDetail.bedrooms} Bedrooms`}
+                    </HouseDetailValue>
+                  </li>
+                  <li>
+                    <HouseDetailValue>
+                      <span>
+                        <Icon name="icon-carport-min" />
+                      </span>
+                      {`${slide.houseDetail.carPort} Carport`}
+                    </HouseDetailValue>
+                  </li>
+                </HouseDetailColumn>
+                <HouseDetailColumn>
+                  <li>
+                    <HouseDetailValue>
+                      <span>
+                        <Icon name="icon-bathrooms-min" />
+                      </span>
+                      {`${slide.houseDetail.bathrooms} Bathrooms`}
+                    </HouseDetailValue>
+                  </li>
+                  <li>
+                    <HouseDetailValue>
+                      <span>
+                        <Icon name="icon-floors-min" />
+                      </span>
+                      {`${slide.houseDetail.floors} Floors`}
+                    </HouseDetailValue>
+                  </li>
+                </HouseDetailColumn>
+              </HouseDetailWrapper>
+              <UserWrapper>
+                <UserAvatar url={slide.user.avatar} />
+                <UserNamePositionWrapper>
+                  <UserName>{slide.user.userName}</UserName>
+                  <UserPosition>{slide.user.location}</UserPosition>
+                </UserNamePositionWrapper>
+                <LinkButton href={slide.user.tel}>
+                  <Icon name="icon-phone-min" />
+                  Contact Now
+                </LinkButton>
+              </UserWrapper>
+            </div>
+            <ImageWrapper
+              url={slide.url1}
+              onClick={() => handlePhotoClick(index)}
+            >
+              <AverageImage url={slide.url2} />
+              <SmallImageWrapper>
+                <SmallImage url={slide.url3} />
+                <SmallImage url={slide.url4} />
+              </SmallImageWrapper>
+              <PlayButtonCircle>
+                <Icon name="icon-play-min" width={15} height={21} />
+              </PlayButtonCircle>
+            </ImageWrapper>
+          </MainWrapper>
         ))}
       </Slider>
       {modalOpen && (

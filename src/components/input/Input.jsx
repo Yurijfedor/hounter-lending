@@ -1,5 +1,13 @@
 import { InputStyled } from "./Input.styled";
 
-export const Input = ({ placeholder, type }) => {
-  return <InputStyled placeholder={placeholder} type={type} />;
+export const Input = ({ placeholder, type, onFocus, value }) => {
+  return (
+    <InputStyled
+      placeholder={placeholder}
+      type={type}
+      onFocus={onFocus}
+      value={value}
+      readOnly
+    />
+  );
 };

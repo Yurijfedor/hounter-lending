@@ -9,6 +9,8 @@ export const StyledInputComponent = ({
   btnText,
   isIconButton,
   type,
+  value,
+  onFocus,
 }) => {
   const icon = (
     <Icon
@@ -23,7 +25,12 @@ export const StyledInputComponent = ({
   return (
     <SearchWrapp placeholder={placeholder}>
       <Icon name={iconName} />
-      <Input placeholder={placeholder} type={type} />
+      <Input
+        placeholder={placeholder}
+        type={type}
+        onFocus={onFocus}
+        value={value}
+      />
       <Button text={btnText} icon={isIconButton ? icon : null} />
     </SearchWrapp>
   );

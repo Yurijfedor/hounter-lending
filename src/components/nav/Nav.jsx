@@ -24,7 +24,7 @@ export const Navigation = () => {
               <Icon name={"icon-arrow-down-min"} width="15px" height="15px" />
               <Dropdown>
                 {properties.map(({ label, url }) => (
-                  <DropdownLink key={url} href={url}>
+                  <DropdownLink key={label} href={url}>
                     {label}
                   </DropdownLink>
                 ))}

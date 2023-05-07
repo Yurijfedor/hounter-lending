@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   z-index: 2;
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
@@ -25,6 +25,7 @@ export const NavLink = styled.a`
   text-decoration: none;
 
   color: #f0f3fd;
+  cursor: pointer;
 
   &:hover {
     background-color: #10b981;

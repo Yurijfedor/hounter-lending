@@ -12,7 +12,7 @@ const getSubscribeStyles = (placeholder) => {
   }
 };
 
-export const SearchWrapp = styled.div`
+export const SearchWrapp = styled.form`
   display: flex;
   margin-top: 32px;
   width: 496px;

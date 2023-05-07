@@ -15,8 +15,8 @@ export const Partnership = () => {
       <PartnershipTitle>Our Partnership</PartnershipTitle>
       <PartnerList>
         {partnerLogoSArr.map((partnerLogo, index) => (
-          <li>
-            <PartnerLogo key={index} src={partnerLogo} alt="Partner Logo" />
+          <li key={index}>
+            <PartnerLogo src={partnerLogo} alt="Partner Logo" />
           </li>
         ))}
       </PartnerList>

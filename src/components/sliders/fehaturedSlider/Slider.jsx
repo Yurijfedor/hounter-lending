@@ -34,39 +34,37 @@ export const SliderComponent = ({ slideData, sliderRef }) => {
     <SliderContainer>
       <Slider ref={sliderRef} {...settings} className="featured">
         {slideData.map((slide) => (
-          <>
-            <SliderCardWrapper key={slide.id}>
-              <SliderImageWrapper image={slide.photo}>
-                <Overlay category={slide.category}>
-                  {slide.category === "Popular" ? (
-                    <Icon name="icon-fire-min" width={12} height={12} />
-                  ) : slide.category === "New House" ? (
-                    <Icon
-                      name="icon-house-min"
-                      fill="#1D4ED8"
-                      width={12}
-                      height={12}
-                    />
-                  ) : (
-                    <Icon name="icon-best-dials-min" width={12} height={12} />
-                  )}
-                  <OverlaySpan category={slide.category}>
-                    {slide.category}
-                  </OverlaySpan>
-                </Overlay>
-              </SliderImageWrapper>
+          <SliderCardWrapper key={slide.id}>
+            <SliderImageWrapper image={slide.photo}>
+              <Overlay category={slide.category}>
+                {slide.category === "Popular" ? (
+                  <Icon name="icon-fire-min" width={12} height={12} />
+                ) : slide.category === "New House" ? (
+                  <Icon
+                    name="icon-house-min"
+                    fill="#1D4ED8"
+                    width={12}
+                    height={12}
+                  />
+                ) : (
+                  <Icon name="icon-best-dials-min" width={12} height={12} />
+                )}
+                <OverlaySpan category={slide.category}>
+                  {slide.category}
+                </OverlaySpan>
+              </Overlay>
+            </SliderImageWrapper>
 
-              <Title>{slide.name}</Title>
-              <Price>{slide.price}</Price>
-              <UserInfo>
-                <Avatar src={slide.user.avatar} alt="avatar" />
-                <div>
-                  <UserName>{slide.user.userName}</UserName>
-                  <Location>{slide.user.location}</Location>
-                </div>
-              </UserInfo>
-            </SliderCardWrapper>
-          </>
+            <Title>{slide.name}</Title>
+            <Price>{slide.price}</Price>
+            <UserInfo>
+              <Avatar src={slide.user.avatar} alt="avatar" />
+              <div>
+                <UserName>{slide.user.userName}</UserName>
+                <Location>{slide.user.location}</Location>
+              </div>
+            </UserInfo>
+          </SliderCardWrapper>
         ))}
       </Slider>
     </SliderContainer>
