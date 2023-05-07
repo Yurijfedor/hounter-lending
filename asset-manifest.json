@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hounter-lending/static/css/main.d5b9055a.css",
+    "main.js": "/hounter-lending/static/js/main.3974d7c3.js",
+    "static/media/hero.jpg": "/hounter-lending/static/media/hero.556179757fc1935fd3b6.jpg",
+    "static/media/tour-image-big-min.jpg": "/hounter-lending/static/media/tour-image-big-min.fa53c4b4d3711978c175.jpg",
+    "static/media/featured-house-2-min.jpg": "/hounter-lending/static/media/featured-house-2-min.3ef4ded30bc7dd622859.jpg",
+    "static/media/sprite.svg": "/hounter-lending/static/media/sprite.649312eb6c4f85d84d8ae12980d882f2.svg",
+    "static/media/featured-house-1-min.jpg": "/hounter-lending/static/media/featured-house-1-min.07114738f6c303a76089.jpg",
+    "static/media/featured-house-3-min.jpg": "/hounter-lending/static/media/featured-house-3-min.11377ad8682de51f21dd.jpg",
+    "static/media/house2.jpg": "/hounter-lending/static/media/house2.20720e88b1b7905b04cf.jpg",
+    "static/media/house1.jpg": "/hounter-lending/static/media/house1.78b1296ec7e4866d25d9.jpg",
+    "static/media/slick.svg": "/hounter-lending/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/hounter-lending/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/hounter-lending/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/hounter-lending/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/gradient-left-blue-bottom-min.svg": "/hounter-lending/static/media/gradient-left-blue-bottom-min.f162309f0393e6ec95ae2ce847f6aed4.svg",
+    "static/media/gradient-left-blue-top-min.svg": "/hounter-lending/static/media/gradient-left-blue-top-min.40c995ddc7a8f14660cb472ee989dd81.svg",
+    "static/media/gradient-right-blue-bottom-min.svg": "/hounter-lending/static/media/gradient-right-blue-bottom-min.c3f0821dd19ca486df697f8946b16a78.svg",
+    "static/media/gradient-right-blue-top-min.svg": "/hounter-lending/static/media/gradient-right-blue-top-min.03a3727e9bb5ced7c84da46bb323e34d.svg",
+    "static/media/gradient-right-pink-bottom-min.svg": "/hounter-lending/static/media/gradient-right-pink-bottom-min.68c99458bf4533bf9c22af11cc781336.svg",
+    "static/media/gradient-right-pink-top-min.svg": "/hounter-lending/static/media/gradient-right-pink-top-min.e707bda0a932f007892a10524bde50d9.svg",
+    "index.html": "/hounter-lending/index.html",
+    "main.d5b9055a.css.map": "/hounter-lending/static/css/main.d5b9055a.css.map",
+    "main.3974d7c3.js.map": "/hounter-lending/static/js/main.3974d7c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5b9055a.css",
+    "static/js/main.3974d7c3.js"
+  ]
+}
