@@ -62,7 +62,7 @@ export const SliderComponent = () => {
     <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      style={{ position: "absolute", top: "114px", overflowX: "hidden" }}
+      style={{ position: "absolute", top: "114px" }}
     >
       <Slider {...settings} className="sell">
         {slideData.map((slide, index) => (

@@ -15,7 +15,7 @@ import {
 
 export const Hero = () => {
   const [showOptions, setShowOptions] = useState(false);
-  const [inputValue, setInputValue] = useState("hello");
+  const [inputValue, setInputValue] = useState("");
 
   const countries = [
     "USA",
@@ -30,12 +30,18 @@ export const Hero = () => {
     setShowOptions(true); // показуємо список при фокусуванні на інпуті
   };
 
-  const handleOptionClick = (country) => {
-    setInputValue(country); // робота з вибраним значенням
-    setShowOptions(false); // ховаємо список після вибору значення
+  const handleOptionClick = (event) => {
+    setInputValue(event.target.value);
+    setShowOptions(false);
   };
 
-  console.log(inputValue);
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  const handleClearInput = () => {
+    setInputValue("");
+  };
 
   return (
     <HeroSection>
@@ -55,7 +61,9 @@ export const Hero = () => {
             btnText="Search"
             isIconButton
             value={inputValue}
-            onFocus={handleInputFocus} // обробник події фокусування на інпуті
+            onFocus={handleInputFocus}
+            onChange={handleInputChange}
+            onClick={handleClearInput}
           />
           {showOptions && (
             <select
@@ -67,6 +75,8 @@ export const Hero = () => {
                 padding: "5px",
                 border: "1px solid #ccc",
               }}
+              value={inputValue} // додано
+              onChange={handleOptionClick}
             >
               {countries.map((country, index) => (
                 <option key={index} onClick={() => handleOptionClick(country)}>

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const MainWrapper = styled.li`
   position: relative;
-  display: flex;
-  gap: 16.5vw;
+  display: flex !important;
+  gap: 25vw;
   margin-top: 170px;
 `;
 

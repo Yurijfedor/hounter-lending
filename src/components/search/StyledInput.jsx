@@ -11,6 +11,8 @@ export const StyledInputComponent = ({
   type,
   value,
   onFocus,
+  onChange,
+  onClick,
 }) => {
   const icon = (
     <Icon
@@ -30,8 +32,13 @@ export const StyledInputComponent = ({
         type={type}
         onFocus={onFocus}
         value={value}
+        onChange={onChange}
       />
-      <Button text={btnText} icon={isIconButton ? icon : null} />
+      <Button
+        text={btnText}
+        icon={isIconButton ? icon : null}
+        onClick={onClick}
+      />
     </SearchWrapp>
   );
 };
