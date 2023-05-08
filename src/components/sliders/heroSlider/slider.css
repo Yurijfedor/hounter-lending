@@ -10,6 +10,12 @@
   margin-left: 70px;
 }
 
+@media (max-width: 420px) {
+  .hero .slick-track {
+    margin-left: -280px;
+  }
+}
+
 .hero .slick-dots {
   position: absolute;
   bottom: -30px !important;

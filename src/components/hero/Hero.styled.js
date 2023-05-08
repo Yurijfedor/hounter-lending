@@ -4,6 +4,10 @@ import hero from "../../assets/images/hero.jpg";
 export const HeroSection = styled.section`
   display: flex;
   padding-top: 96px;
+  margin: 0 auto;
+  @media (max-width: 420px) {
+    flex-direction: column;
+  }
 `;
 
 export const LeftContentWrapp = styled.div`
@@ -44,4 +48,7 @@ export const BackgroundImageWrapp = styled.div`
   background-image: url(${hero});
   background-repeat: no-repeat;
   background-position: right center;
+  @media (max-width: 420px) {
+    z-index: -1;
+  }
 `;

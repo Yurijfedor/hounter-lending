@@ -22,4 +22,7 @@ export const SearchWrapp = styled.form`
   padding: 4px 4px 4px 27px;
   background-color: #fff;
   ${({ placeholder }) => getSubscribeStyles(placeholder)}
+  @media (max-width: 420px) {
+    width: 320px;
+  }
 `;

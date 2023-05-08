@@ -21,7 +21,7 @@ export const SliderComponent = ({ slideData }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
     variableWidth: true,
     autoplaySpeed: 3000,
