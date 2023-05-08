@@ -30,17 +30,22 @@ export const NavLink = styled.div`
   &:hover {
     background-color: #10b981;
   }
+  @media (max-width: 420px) {
+    background: #7abdff;
+  }
 `;
 
 export const Dropdown = styled.div`
   position: absolute;
-  top: 100%;
+  display: flex;
+  gap: 5px;
+  top: 102%;
   left: 0;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #7abdff;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 0.5rem 0;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   min-width: 120px;
   display: none;
@@ -50,9 +55,10 @@ export const Dropdown = styled.div`
 `;
 
 export const DropdownLink = styled.a`
-  display: block;
+  display: flex;
   padding: 0.5rem 1rem;
   color: #888b97;
+  background-color: #7affe7;
   text-decoration: none;
   &:hover {
     background-color: #d1fae5;
