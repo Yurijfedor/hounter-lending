@@ -27,7 +27,7 @@ export const SubscribeWrapper = styled.div`
     ),
     rgb(179, 174, 249);
 
-  background-position: 44px 38px, 195px 178px, 930px 44px, 1092px 197px,
-    204px 71px, 67px 173px, 1082px 107px, 964px 143px, 0 0, 0 0;
+  background-position: 3.7% 12.2%, 16.25% 57.05%, 77.5% 14.1%, 91% 63.14%,
+    17% 22.76%, 5.58% 55.45%, 90.17% 34.29%, 80.33% 45.83%, 0 0, 0 0;
   background-repeat: no-repeat;
 `;
