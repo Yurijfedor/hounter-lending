@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderStyled = styled.header`
   display: flex;
   justify-content: space-between;
-  @media (max-width: 420px) {
+  @media (max-width: 560px) {
     flex-direction: column;
     align-items: center;
   }
