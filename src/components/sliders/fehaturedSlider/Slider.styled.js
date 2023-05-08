@@ -9,7 +9,7 @@ export const SliderCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 340px;
+  width: 340px !important;
   background-color: #ffffff;
 
   /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */

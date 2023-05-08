@@ -28,6 +28,8 @@ export const SliderComponent = ({ slideData, sliderRef }) => {
     arrows: true,
     variableWidth: true,
     autoplaySpeed: 3000,
+    centerMode: true,
+    centerPadding: "25%",
   };
 
   return (
